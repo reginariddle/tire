@@ -1,0 +1,80 @@
+<?php
+	require_once('functions.php');
+?>
+
+<html>
+	<head>
+		<title>File Upload Example</title>
+			<!-- Start VisualLightBox.com HEAD section -->
+
+		<link rel="stylesheet" href="index_files/vlb_files0/vlightbox0.css" type="text/css" />
+
+		<link rel="stylesheet" href="index_files/vlb_files0/visuallightbox.css" type="text/css" media="screen" />
+<script src="index_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
+
+		<script src="index_files/vlb_engine/visuallightbox.js" type="text/javascript"></script>
+
+		<!-- End VisualLightBox.com HEAD section -->
+
+</head>
+	<body>
+		<form action="" method="POST" enctype="multipart/form-data">
+			<p>Choose a photo for your profile picture:</p>
+			<input type="file" name="profile_picture" /><br />
+			<input type="submit" name="submit" value="Upload file" />
+		</form>
+
+<?php
+
+<?php
+
+// Inspect the values PHP retrieves in $_FILES
+echo "<hr />";
+var_dump($_FILES);
+echo "<hr />";
+
+upload_file('profile_picture');
+
+?>
+
+<!-- Start VisualLightBox.com BODY section id=0 -->
+
+	<div id="vlightbox0">
+
+	<a class="vlightbox0" href="index_files/vlb_images0/1374984.jpg" title="1374984"><img src="index_files/vlb_thumbnails0/1374984.jpg" alt="1374984"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/1655993.jpg" title="1655993"><img src="index_files/vlb_thumbnails0/1655993.jpg" alt="1655993"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/1656067.jpg" title="1656067"><img src="index_files/vlb_thumbnails0/1656067.jpg" alt="1656067"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/blueridges1.jpg" title="blueridges1"><img src="index_files/vlb_thumbnails0/blueridges1.jpg" alt="blueridges1"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/blueridges11.jpg" title="blueridges11"><img src="index_files/vlb_thumbnails0/blueridges11.jpg" alt="blueridges11"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/bmabook.jpg" title="bmabook"><img src="index_files/vlb_thumbnails0/bmabook.jpg" alt="bmabook"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/cloudspray.jpg" title="cloudsPRAY"><img src="index_files/vlb_thumbnails0/cloudspray.jpg" alt="cloudsPRAY"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/cover1.jpg" title="cover1"><img src="index_files/vlb_thumbnails0/cover1.jpg" alt="cover1"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/crystaltaylortristaninthepool.jpg" title="CrystalTaylorTristaninthePool"><img src="index_files/vlb_thumbnails0/crystaltaylortristaninthepool.jpg" alt="CrystalTaylorTristaninthePool"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/horsessilhouette.jpg" title="horsessilhouette"><img src="index_files/vlb_thumbnails0/horsessilhouette.jpg" alt="horsessilhouette"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/images.jpg" title="images"><img src="index_files/vlb_thumbnails0/images.jpg" alt="images"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/jesusisawesome.jpg" title="jesusisawesome"><img src="index_files/vlb_thumbnails0/jesusisawesome.jpg" alt="jesusisawesome"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/me.jpg" title="Me"><img src="index_files/vlb_thumbnails0/me.jpg" alt="Me"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/monet4.jpg" title="Monet4"><img src="index_files/vlb_thumbnails0/monet4.jpg" alt="Monet4"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/narnia_aslan.jpg" title="Narnia_aslan"><img src="index_files/vlb_thumbnails0/narnia_aslan.jpg" alt="Narnia_aslan"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/nofear.jpg" title="NoFear"><img src="index_files/vlb_thumbnails0/nofear.jpg" alt="NoFear"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/oscar6.jpg" title="Oscar6"><img src="index_files/vlb_thumbnails0/oscar6.jpg" alt="Oscar6"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/quoteforlater2.jpg" title="Quoteforlater2"><img src="index_files/vlb_thumbnails0/quoteforlater2.jpg" alt="Quoteforlater2"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/quoteforlater4.jpg" title="quoteforlater4"><img src="index_files/vlb_thumbnails0/quoteforlater4.jpg" alt="quoteforlater4"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/raccoons2.jpg" title="raccoons2"><img src="index_files/vlb_thumbnails0/raccoons2.jpg" alt="raccoons2"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/stars.jpg" title="stars"><img src="index_files/vlb_thumbnails0/stars.jpg" alt="stars"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/trythis36.jpg" title="trythis36"><img src="index_files/vlb_thumbnails0/trythis36.jpg" alt="trythis36"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/trythisformywebsite.jpg" title="trythisforMYWEBSITE"><img src="index_files/vlb_thumbnails0/trythisformywebsite.jpg" alt="trythisforMYWEBSITE"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/trythisforwebsite.jpg" title="TryThisforWebsite"><img src="index_files/vlb_thumbnails0/trythisforwebsite.jpg" alt="TryThisforWebsite"/></a>
+<a class="vlightbox0" href="index_files/vlb_images0/wheniwassickthiswasmyhelp.jpg" title="whenIWasSickThisWasMyHelp"><img src="index_files/vlb_thumbnails0/wheniwassickthiswasmyhelp.jpg" alt="whenIWasSickThisWasMyHelp"/></a>
+<span class="vlb"><a href="http://visuallightbox.com">lightbox jquery flv</a>by VisualLightBox.com v6.0</span>
+
+	</div>
+
+	<script src="index_files/vlb_engine/vlbdata0.js" type="text/javascript"></script>
+
+	<!-- End VisualLightBox.com BODY section -->
+
+<hr />";
+
+
+</body></html>

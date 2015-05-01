@@ -1,0 +1,21 @@
+/*
+ IMGallery2-Style
+ Name: Print
+ Author: Nico Wiedemann
+ Contact: god@offen-siv.de
+*/
+
+@media print {
+ #div_thumbs { visibility: hidden; }
+ BODY {
+  background: white;
+  color: black;
+ }
+ a {
+  color: inherit;
+ }
+ #div_copy {
+  color: silver;
+  font-size: small;
+ }
+}

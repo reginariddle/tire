@@ -1,0 +1,1 @@
+Do not delete this Template-Folder. It is required do allow the printing of pictures from your gallery. If you want to disable printing you can do this in the Admin-Panel.

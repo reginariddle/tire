@@ -1,0 +1,21 @@
+input {
+	width: 100px;
+	margin-top: 10px;
+	}
+	
+fieldset {
+	width: 140%;
+	padding: 10px 10px 10px;
+	position: relative;
+	
+	}
+	
+legend {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+
+	}
+	
+	
+	
